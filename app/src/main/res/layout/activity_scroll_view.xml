@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ScrollView">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:text="Verde"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="25dp"
+                android:background="#8BC34A"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:text="Amarillo"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="25dp"
+                android:background="#FFEB3B"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:text="Naranja"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="25dp"
+                android:background="#FF9800"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:text="Verde"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="25dp"
+                android:background="#8BC34A"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:text="Amarillo"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="25dp"
+                android:background="#FFEB3B"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:text="Naranja"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="25dp"
+                android:background="#FF9800"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
